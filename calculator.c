@@ -1,4 +1,12 @@
 #include <stdio.h>
+int inverse(int i) {
+	if (x!=0) {
+		return 1.0/x;
+	} else {
+		printf("Cannot divide by zero");
+		return 0;
+	}
+}
 int square(int i) {
 	return i*i;
 }
