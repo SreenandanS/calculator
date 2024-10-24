@@ -1,5 +1,10 @@
 #include <stdio.h>
-
+int square(int i) {
+	return i*i;
+}
+int cube(int i) {
+	return i*i*i;
+}
 int add(int i, int j) {
     return (i + j);
 }
